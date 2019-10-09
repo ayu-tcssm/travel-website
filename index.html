@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Top Travel Destinations</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="Rome.html">Rome</a>
+      <a href="Bali.html">Bali</a>
+      <a href="NewYork.html">New York</a>
+      <a href="Maui.html">Maui</a>
+      <a href="Paris.html">Paris</a>
+      <a href="London.html">London</a>
+      <a href="Santorini.html" style="float:right">Santorini</a>
+    </div>
+
+    <div class="row">
+
+      <div class="leftcolumn">
+
+        <div class="card">
+          <h2>Traveling, Vacations, and Where to Take Them</h2>
+          <h5>Why Vacations Are Important And The Best Places To Take Them</h5>
+          <img src="santorini.jpg" style="height:200px; width:550px;">
+          <p>Everybody loves a vacation. It's a great way to take a break from school, work, an upcoming deadline, or anything stressful. Here are some of the world's most popular destinations and what to do there.(Click on the links posted above to read more on each location.)</p>
+        </div>
+
+        <div class="card">
+          <h2>Before You Go On Your Trip...</h2>
+          <h5>Things to Know Before You Go</h5>
+          <p> It's important to know that in certain places certain items must be packed. For sunnier places like Maui, be sure to bring your swimsuit, sunscreen, and other beach gear. For colder, rainier places like London, always bring a raincoat and umbrella in case it starts to rain during your stay.Always make sure to check the weather forecast in advance before packing for your trip </p>
+        </div>
+      </div>
+
+      <div class="rightcolumn">
+
+        <div class="card">
+          <h2>About Me</h2>
+          <img src="fairylights.jpeg" alt="fairy lights" style="height:auto; width:100px; margin-top:1px;">
+          <p> I'm a 12 year old currently at Bowditch Middle School.</p>
+        </div>
+        <div class="card">
+          <h2>Why You Should Take Vacations</h2>
+          <p> You reduce your stress,become happier, and can spend more time with your family or self.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>September 19, 2019</h2>
+    </div>
+
+  </body>
+</html>

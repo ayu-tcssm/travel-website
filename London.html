@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>London</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="Santorini.html">Santorin</a>
+      <a href="Rome.html">Rome</a>
+      <a href="NewYork.html">New York</a>
+      <a href="Maui.html">Maui</a>
+      <a href="Paris.html">Paris</a>
+      <a href="Bali.html">London</a>
+      <a href="index.html" style="float:right">Back To Home</a>
+    </div>
+
+    <img src="bigben.jpg" alt=" Big Ben In London" class="center">
+    <p>"London" by Bauer00007 is licensed under CC BY-NC-SA 2.0 </p>
+    
+    <h2>Things To Do There: </h2>
+    
+    <ol>
+      <li>Take a tour at the Tower of London</li>
+      <li>See Big Ben</li>
+      <li>Ride in the London Eye</li>
+      <li>Watch the Changing of the Guard at the Buckingham Palace</li>
+      <li>Take a stroll along Hyde Par</li>
+    </ol>
+    
+    <h2> Did You Know That...</h2>
+    
+    <ul>
+      <li>The Tower of London always houses six ravens due to superstitious reasons.</li>
+      <li>Big Ben's actual intended name was supposed to be "The Clock Tower".</li>
+    </ul>
+    
+  </body>
+</html>
